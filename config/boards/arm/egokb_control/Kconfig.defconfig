@@ -6,6 +6,8 @@
 if BOARD_EGOKB_CONTROL
     config BOARD
     default "egokb_control"
+    config BT_SMP_SC_PAIR_ONLY
+        default n
 
     if USB_DEVICE_STACK
 
